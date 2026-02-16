@@ -1,0 +1,63 @@
+    *{margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.sea,
+.flower,
+.hat,
+.car{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+}
+
+/* first row */
+.hat1{
+    left: 33px;
+    top: 54px;
+    z-index: 0;
+}
+.flower1{
+    left: 224px;
+    top: 141px;
+    z-index: 1;
+}
+.car1{
+    left: 411px;
+    top: 254px;
+    z-index: 2;
+}
+.sea1{
+    left: 619px;
+    top: 341px;
+    z-index: 1;
+}
+
+/* second row */
+.sea2,
+.flower2,
+.hat2,
+.car2{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 1px solid black;
+    top: 596px;
+}
+.hat2{
+    left: 101px;
+    z-index: 0;
+}
+.flower2{
+    left: 201px;
+    z-index: 1;
+}
+.car2{
+    left: 283px;
+    z-index: 2;
+}
+.sea2{
+    left: 383px;
+    z-index: 3;
+}

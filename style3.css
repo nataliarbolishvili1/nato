@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+/* first row */
+.sea,
+.flower,
+.hat,
+.car{
+    position: absolute;
+}
+.sea1,
+.flower1,
+.hat1,
+.car1{
+    left: 125px;
+}
+.flower1{
+    top: 258px;
+    z-index: 0;
+}
+.sea1{
+    top: 354px;
+    z-index: 1;
+}
+.car1{
+    top: 448px;
+    z-index: 2;
+}
+.hat1{
+    top: 544px;
+    z-index: 3;
+}
+
+/* second row */
+.sea2,
+.flower2,
+.hat2,
+.car2{
+    left: 385px;
+}
+.hat2{
+    top: 176px;
+    z-index: 0;
+}
+.car2{
+    top: 326px;
+    z-index: 1;
+}
+.sea2{
+    top: 476px;
+    z-index: 2;
+}
+.flower2{
+    top: 626px;
+    z-index: 3;
+}
+
+/* third row */
+.sea3,
+.flower3,
+.hat3,
+.car3{
+    left: 645px;
+}
+.sea3{
+    top: 146px;
+    z-index: 0;
+}
+.flower3{
+    top: 316px;
+    z-index: 1;
+}
+.hat3{
+    top: 486px;
+    z-index: 2;
+}
+.car3{
+    top: 656px;
+    z-index: 3;
+}
+
+/* forth row */
+.sea4,
+.hat4,
+.flower4,
+.car4{
+    left: 905px;
+}
+.car4{
+    top: 206px;
+    z-index: 0;
+}
+.sea4{
+    top: 336px;
+    z-index: 1;
+}
+.flower4{
+    top: 466px;
+    z-index: 2;
+}
+.hat4{
+    top: 596px;
+    z-index: 3;
+}

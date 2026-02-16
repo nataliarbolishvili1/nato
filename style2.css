@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.sea,
+.flower,
+.hat,
+.car{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    top: 100px;
+}
+.sea{
+    left: 125px;
+}
+.flower{
+    left: 385px;
+}
+.hat{
+   left: 645px; 
+}
+.car{
+    left: 905px;
+}
